@@ -353,8 +353,8 @@ describe("VSIX Build & Packaging Tests", function () {
 
                 assert.strictEqual(
                     mockContext.subscriptions.length,
-                    11,
-                    "Extension from VSIX should register 11 subscriptions (10 commands + smali LSP)",
+                    13,
+                    "Extension from VSIX should register 13 subscriptions (12 commands + smali LSP)",
                 );
 
                 console.log("✓ Extension loaded successfully from VSIX");
